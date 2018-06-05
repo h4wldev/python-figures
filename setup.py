@@ -11,7 +11,7 @@
 from setuptools import setup, find_packages
 
 
-__version__ = '1.0'
+__version__ = '1.1'
 
 
 setup(
@@ -23,5 +23,6 @@ setup(
     author_email='h4wldev@gmail.com',
     description='😀 Can use unicode symbols on any OS!',
     long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     url='https://github.com/h4wldev/python-figures'
 )
