@@ -6,7 +6,7 @@ This project is based on [sindresorhus/figures](https://github.com/sindresorhus/
 <a href="https://github.com/h4wldev/python-figures/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square"></a>
 
 ## Usage
-You can see supported symbols on this code or windows. You can also see this example on example.py
+You can see supported symbols on [this code](https://github.com/h4wldev/python-figures/blob/master/figures/default.py) or [windows](https://github.com/h4wldev/python-figures/blob/master/figures/windows.py). You can also see this example on [example.py](https://github.com/h4wldev/python-figures/blob/master/example.py)
 ```python
 from figures import Figures, figures as f
 
@@ -50,12 +50,12 @@ if you enter this argument, it return unicode symbol on windows CMD
 #### get(key, default)
 Return os friendly unicode symbol with key
 
-#### key
+##### key
 Type : `String`
 
 Unicode symbols, see [Figures](#figures). also you can use custom symbol with add function.
 
-#### default
+##### default
 Type : `String`
 
 Return this when nonexistent key argument.
@@ -63,7 +63,7 @@ Return this when nonexistent key argument.
 #### string(string)
 replace string for windows CMD.
 
-#### string
+##### string
 Type : `String`
 
 String what have unicode symbols.
@@ -74,6 +74,7 @@ Get all of symbols, include custom symbols
 #### get_keys()
 Get all of symbol's keys, include custom symbols
 
+---
 
 ### figures(key=None, string=None, default=None)
 Return os friendly unicode symbol with key, or replace string for windows CMD.
