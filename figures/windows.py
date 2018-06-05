@@ -1,0 +1,45 @@
+# -*- coding: utf-8 -*-
+
+from .default import figures as default
+
+
+figures = {
+    'tick': '√',
+	'cross': '×',
+	'star': '*',
+	'square': '█',
+	'squareSmall': '[ ]',
+	'squareSmallFilled': '[█]',
+	'play': '►',
+	'circle': '( )',
+	'circleFilled': '(*)',
+	'circleDotted': '( )',
+	'circleDouble': '( )',
+	'circleCircle': '(○)',
+	'circleCross': '(×)',
+	'circlePipe': '(│)',
+	'circleQuestionMark': '(?)',
+	'bullet': '*',
+	'dot': '.',
+	'line': '─',
+	'ellipsis': '...',
+	'pointer': '>',
+	'pointerSmall': '»',
+	'info': 'i',
+	'warning': '‼',
+	'hamburger': '≡',
+	'smiley': '☺',
+	'mustache': '┌─┐',
+	'heart': default['heart'],
+	'arrowUp': default['arrowUp'],
+	'arrowDown': default['arrowDown'],
+	'arrowLeft': default['arrowLeft'],
+	'arrowRight': default['arrowRight'],
+	'radioOn': '(*)',
+	'radioOff': '( )',
+	'checkboxOn': '[×]',
+	'checkboxOff': '[ ]',
+	'checkboxCircleOn': '(×)',
+	'checkboxCircleOff': '( )',
+	'questionMarkPrefix': '？'
+}
