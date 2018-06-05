@@ -5,6 +5,11 @@ This project is based on [sindresorhus/figures](https://github.com/sindresorhus/
 
 <a href="https://github.com/h4wldev/python-figures/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square"></a>
 
+## Installation
+```bash
+pip install python-figures
+```
+
 ## Usage
 You can see supported symbols on [this code](https://github.com/h4wldev/python-figures/blob/master/figures/default.py) or [windows](https://github.com/h4wldev/python-figures/blob/master/figures/windows.py). You can also see this example on [example.py](https://github.com/h4wldev/python-figures/blob/master/example.py)
 ```python
